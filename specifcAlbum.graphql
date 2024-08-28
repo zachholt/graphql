@@ -1,0 +1,7 @@
+query {
+  album (id: 3) {
+      __typename
+    id
+    title
+  }
+}
