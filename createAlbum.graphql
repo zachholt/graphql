@@ -1,0 +1,8 @@
+mutation {
+  createAlbum(input: {title:"mutating music", userId: "1"}) {
+    title
+    user {
+      username
+    }
+  }
+}
